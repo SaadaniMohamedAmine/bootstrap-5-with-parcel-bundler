@@ -1,0 +1,25 @@
+//customize bootstrap variables
+$body-bg: rgb(27, 27, 27);
+$body-color: white;
+$primary: rgb(0, 119, 255);
+
+//boottsrap source file
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//style normal
+.navbar-collapse {
+  justify-content: flex-end;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+.hero-tag {
+  background: url("../assets/build.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
